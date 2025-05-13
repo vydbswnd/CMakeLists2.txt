@@ -1,5 +1,0 @@
-if(EXISTS "/home/vydbswnd/string_helper/build/string_helper_test[1]_tests.cmake")
-  include("/home/vydbswnd/string_helper/build/string_helper_test[1]_tests.cmake")
-else()
-  add_test(string_helper_test_NOT_BUILT string_helper_test_NOT_BUILT)
-endif()
