@@ -1,3 +1,6 @@
+#ifndef STRING_HELPER_H
+#define STRING_HELPER_H
+
 #include <string>	//std::string 클래스 정의, 문자열인 텍스트를 다루기 위한 c++표준 클래스어
 
 //다른 코드에 동일한 이름이 있어도 충돌을 방지하는 namespace
@@ -39,3 +42,5 @@ public:
 };
 
 }
+
+#endif
