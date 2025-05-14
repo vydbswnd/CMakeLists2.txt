@@ -1,11 +1,8 @@
-#include "string_helper.h"
-//앞에서 만든 함수 선언을 끌고옴.
-#include <algorithm>
-//정렬, 변환, 검색 등의 알고리즘 함수를 사용하기 위해 헤더파일을 끌고옴.
-#include <cctype>
-// 문자 처리 함수를 사용하기 위해 헤더파일을 끌고옴.
-#include <stdexcept> 
-/// 예외클래스들을 사용하기 위해 헤더 파일을 끌고옴.
+#include "string_helper.h"	//앞에서 만든 함수 선언을 끌고옴.
+
+#include <algorithm>	//정렬, 변환, 검색 등의 알고리즘 함수를 사용하기 위해 헤더파일을 끌고옴.
+#include <cctype>		// 문자 처리 함수를 사용하기 위해 헤더파일을 끌고옴.
+#include <stdexcept> 	// 예외클래스들을 사용하기 위해 헤더 파일을 끌고옴.
 
 namespace utils::string {
 //네임스페이스로 영역?공간?을 지정해주고
